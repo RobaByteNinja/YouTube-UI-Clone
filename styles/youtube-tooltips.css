@@ -1,0 +1,47 @@
+.profile-preview-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-preview-tooltip {
+    position: absolute;
+    top: 55px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border: none;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    z-index: 300;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.channel-author-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 8px;
+}
+
+
+.channel-author-name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.channel-subscribers {
+    color: rgb(63, 63, 63);
+    font-size: 14px;
+}
+
+.profile-preview-container:hover .profile-preview-tooltip{
+    opacity: 1;
+}
