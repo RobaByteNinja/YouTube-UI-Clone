@@ -46,25 +46,20 @@
     padding-left: 10px;
     font-size: 16px;
     flex: 1;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(192, 192, 192);
+    border: 1px solid rgb(192, 192, 192);
     border-radius: 2px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
     width: 0;
 }
 
 .search-bar::placeholder {
-    font-family: Roboto, Arial;
     font-size: 16px;
 }
 
 .search-btn {
     height: 40px;
     width: 60px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(192, 192, 192);
+    border: 1px solid rgb(192, 192, 192);
     background-color: rgb(245, 245, 245);
     margin-left: -1px;
     margin-right: 10px;
@@ -85,16 +80,12 @@
 .upload-icon-container .tooltip,
 .youtube-apps-container .tooltip,
 .notifications-icon-container .tooltip {
-    font-family: Roboto, Arial;
     font-size: 12px;
     background-color: gray;
     color: white;
     position: absolute;
     bottom: -30px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 4px 8px;
     border-radius: 2px;
     opacity: 0;
     transition: opacity 0.15s;
@@ -159,12 +150,8 @@
     right: -6px;
     background-color: rgb(194, 9, 9);
     color: white;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 2px 5px;
     border-radius: 10px;
-    font-family: Roboto, Arial;
     font-size: 11px;
 }
 
